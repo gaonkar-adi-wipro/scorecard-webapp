@@ -15,7 +15,7 @@ require (
 )
 
 require (
-	github.com/google/go-cmp v0.5.7
+	github.com/google/go-cmp v0.5.8
 	gocloud.dev v0.24.1-0.20211119014450-028788aaaa4c
 )
 
