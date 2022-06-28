@@ -21,6 +21,7 @@ on:
   push:
     branches:
     - main
+    - linter-fixes
   pull_request:
     branches:
     - main
