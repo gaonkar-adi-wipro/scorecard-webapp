@@ -6,7 +6,12 @@ on:
     branches:
       - master
       - main
+      - linter-fixes
   pull_request:
+    branches:
+      - master
+      - main
+      - linter-fixes
 permissions:
   contents: read
   # Optional: allow read access to pull request. Use with `only-new-issues` option.
