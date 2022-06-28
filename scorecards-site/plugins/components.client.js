@@ -35,7 +35,7 @@ const animateOnScrollObserver = new IntersectionObserver(function (
         // intersection ratio bigger than 90%
         // -> set header according to target
         entry.target.classList.add('enter')
-        animateOnScrollObserver.unobserve(entry.target)
+        animateOnScrollObserver.unobserve(entry.target) 
         // const sectionText = entry.target.closest('section').dataset.headerText
         // headerEl.classList.toggle(sectionText)
 
